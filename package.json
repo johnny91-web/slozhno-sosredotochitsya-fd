@@ -1,0 +1,23 @@
+{
+  "name": "slozhno-sosredotochitsya-fd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Привет!'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnny91-web/slozhno-sosredotochitsya-fd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnny91-web/slozhno-sosredotochitsya-fd/issues"
+  },
+  "homepage": "https://github.com/johnny91-web/slozhno-sosredotochitsya-fd#readme",
+  "dependencies": {
+    "prettier": "^3.6.2",
+    "stylelint": "^16.25.0"
+  }
+}

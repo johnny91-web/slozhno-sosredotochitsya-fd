@@ -1,4 +1,17 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --accent-color: #ff0070;
+  --title-color: #db00ff;
+  --section-title-color: #ff0070;
+  --accent-text: #000028;
+  --content-color: #f1b2ce;
+  --menu-button-color: #ff0070;
+  --hover-button: #ff007066;
+  --button-active-color: #ff0070;
+  --page-bg-color: #000028;
+  --focus-button: #ff0070;
+  --decor-color: #ff0070;
+  --paddings: 10px;
+  --page-gap: 40px;
+  --rec-display: block;
+  --body-gap: 50px;
+}
