@@ -100,14 +100,14 @@
   text-transform: lowercase;
 }
 
-.header__theme-menu-button:hover:not(.header__theme-menu-button_active) {
-  outline: 1px solid var(--hover-button, #ff007066);
-  cursor: pointer;
-}
-
 .header__theme-menu-button:focus-visible {
   outline: none;
   border-bottom: 1px solid var(--focus-button, #ff0070);
+}
+
+.header__theme-menu-button:hover:not(.header__theme-menu-button_active) {
+  outline: 1px solid var(--hover-button, #ff007066);
+  cursor: pointer;
 }
 
 .header__theme-menu-button_active {
