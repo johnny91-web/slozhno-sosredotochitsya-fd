@@ -16,7 +16,7 @@
 }
 
 .content__text {
-  font-family: "IBM Plex Mono", sans-serif;
+  font-family: 'IBM Plex Mono', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 23.4px;
@@ -44,7 +44,7 @@
 }
 
 .rec::after {
-  content: "";
+  content: '';
   display: inline-block;
   height: 11px;
   width: 11px;
@@ -59,7 +59,7 @@
 
 .decorated-zone::before,
 .decorated-zone::after {
-  content: "";
+  content: '';
   position: absolute;
   display: block;
   block-size: 25px;
@@ -140,7 +140,7 @@
 }
 
 .main-title {
-  font-family: "IBM Plex Mono", sans-serif;
+  font-family: 'IBM Plex Mono', sans-serif;
   font-weight: 700;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 83%;
@@ -149,7 +149,7 @@
 }
 
 .text {
-  font-family: "IBM Plex Mono", sans-serif;
+  font-family: 'IBM Plex Mono', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
@@ -221,7 +221,7 @@
 
 .footer::after,
 .footer::before {
-  content: "";
+  content: '';
   position: absolute;
   display: block;
   block-size: 25px;
@@ -229,7 +229,6 @@
 }
 
 @media (width >= 768px) {
-
   :root {
     --page-gap: 60px;
     --paddings: 20px;
@@ -328,7 +327,6 @@
 }
 
 @media (width >= 1024px) {
-
   .content-container-what {
     grid-template-columns: repeat(3, 1fr);
   }
