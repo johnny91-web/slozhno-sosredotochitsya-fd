@@ -1,6 +1,8 @@
 @media (prefers-color-scheme: dark) {
+
   :root {
     --background-image: url(../images/cover-image-dark.png);
+    --rec-display: block;
   }
 }
 
@@ -17,4 +19,5 @@
   --page-bg-color: #000028;
   --focus-button: #ff0070;
   --decor-color: #ff0070;
+  --rec-display: block;
 }

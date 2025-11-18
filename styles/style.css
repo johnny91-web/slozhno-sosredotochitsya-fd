@@ -15,7 +15,7 @@
   gap: var(--page-gap, 40px);
 }
 
-.content__text {
+.content-text {
   font-family: 'IBM Plex Mono', sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -127,7 +127,7 @@
   gap: 20px;
 }
 
-.content-container {
+.content-card-list {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -179,11 +179,11 @@
   block-size: fit-content;
 }
 
-.content__decor {
+.content-decor {
   color: var(--content-color);
 }
 
-.advice {
+.advice-list {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -229,6 +229,7 @@
 }
 
 @media (width >= 768px) {
+
   :root {
     --page-gap: 60px;
     --paddings: 20px;
@@ -268,7 +269,7 @@
     gap: 20px;
   }
 
-  .content-container-what {
+  .content-card-list-what {
     display: grid;
     grid-row: 2;
     gap: 20px;
@@ -286,7 +287,7 @@
     grid-column: 1;
   }
 
-  .advice {
+  .advice-list {
     grid-column: 2;
   }
 
@@ -327,7 +328,8 @@
 }
 
 @media (width >= 1024px) {
-  .content-container-what {
+
+  .content-card-list-what {
     grid-template-columns: repeat(3, 1fr);
   }
 
