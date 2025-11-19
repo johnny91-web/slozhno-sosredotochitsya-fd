@@ -224,15 +224,6 @@
   text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
 }
 
-.footer::after,
-.footer::before {
-  content: '';
-  position: absolute;
-  display: block;
-  block-size: 25px;
-  inline-size: 25px;
-}
-
 @media (width >= 768px) {
 
   :root {
@@ -260,6 +251,14 @@
 
   .section {
     grid-template-columns: 1fr 2fr;
+  }
+
+  .cardlist {
+    grid-column: 1 / span 3;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
   }
 
   .card-why {
@@ -333,9 +332,23 @@
     grid-column: 2/4;
   }
 
+  .section-what {
+    grid-auto-flow: row;
+    row-gap: none;
+  }
+
+  .cardlist {
+    grid-column: 1 / span 3;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: min-content;
+    gap: 20px;
+  }
+
   .card-what {
     grid-column: auto;
-    grid-row: 2;
+    grid-column-start: auto;
   }
 
   .section-what__heading {
