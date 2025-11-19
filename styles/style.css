@@ -142,6 +142,12 @@
   gap: 10px;
 }
 
+.cardlist {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 20px;
+}
+
 .main-title {
   font-family: 'IBM Plex Mono', sans-serif;
   font-weight: 700;
@@ -256,9 +262,6 @@
   .cardlist {
     grid-column: 1 / span 3;
     grid-row: 2;
-    display: grid;
-    grid-template-columns: 1fr;
-    row-gap: 20px;
   }
 
   .card-why {
